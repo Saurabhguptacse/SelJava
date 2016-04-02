@@ -1,0 +1,127 @@
+2014-09-15 16:29:22,907 [DEBUG] org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager  - Get connection: {}->http://localhost:18155, timeout = 120000
+2014-09-15 16:29:22,909 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - [{}->http://localhost:18155] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-09-15 16:29:22,909 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - No free connections [{}->http://localhost:18155][null]
+2014-09-15 16:29:22,909 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Available capacity: 2000 out of 2000 [{}->http://localhost:18155][null]
+2014-09-15 16:29:22,909 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Creating new connection [{}->http://localhost:18155]
+2014-09-15 16:29:22,927 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to localhost:18155
+2014-09-15 16:29:22,945 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: best-match
+2014-09-15 16:29:22,954 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2014-09-15 16:29:22,954 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2014-09-15 16:29:22,954 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2014-09-15 16:29:22,954 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2014-09-15 16:29:22,954 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /session HTTP/1.1
+2014-09-15 16:29:22,954 [DEBUG] org.apache.http.wire  -  >> "POST /session HTTP/1.1[\r][\n]"
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.wire  -  >> "Accept: application/json, image/png[\r][\n]"
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.wire  -  >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 111[\r][\n]"
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.wire  -  >> "Host: localhost:18155[\r][\n]"
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.headers  - >> POST /session HTTP/1.1
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.headers  - >> Accept: application/json, image/png
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.headers  - >> Content-Type: application/json; charset=utf-8
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.headers  - >> Content-Length: 111
+2014-09-15 16:29:22,955 [DEBUG] org.apache.http.headers  - >> Host: localhost:18155
+2014-09-15 16:29:22,956 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2014-09-15 16:29:22,956 [DEBUG] org.apache.http.wire  -  >> "{"desiredCapabilities":{"loggingPrefs":{"browser":"ALL"},"platform":"ANY","browserName":"chrome","version":""}}"
+2014-09-15 16:29:24,366 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2014-09-15 16:29:24,368 [DEBUG] org.apache.http.wire  -  << "Content-Length:556[\r][\n]"
+2014-09-15 16:29:24,368 [DEBUG] org.apache.http.wire  -  << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-09-15 16:29:24,368 [DEBUG] org.apache.http.wire  -  << "Connection:close[\r][\n]"
+2014-09-15 16:29:24,369 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2014-09-15 16:29:24,369 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2014-09-15 16:29:24,369 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2014-09-15 16:29:24,369 [DEBUG] org.apache.http.headers  - << Content-Length:556
+2014-09-15 16:29:24,369 [DEBUG] org.apache.http.headers  - << Content-Type:application/json; charset=utf-8
+2014-09-15 16:29:24,369 [DEBUG] org.apache.http.headers  - << Connection:close
+2014-09-15 16:29:24,386 [DEBUG] org.apache.http.wire  -  << "{"sessionId":"662a9e3a3c05b79722a60b8762963fe5","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"userDataDir":"C:\\Users\\mjain\\AppData\\Local\\Temp\\scoped_dir11700_18127"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"version":"37.0.2062.103","webStorageEnabled":true}}"
+2014-09-15 16:29:24,386 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:52646<->127.0.0.1:18155 shut down
+2014-09-15 16:29:24,386 [DEBUG] org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager  - Released connection is not reusable.
+2014-09-15 16:29:24,386 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Releasing connection [{}->http://localhost:18155][null]
+2014-09-15 16:29:24,387 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:52646<->127.0.0.1:18155 closed
+2014-09-15 16:29:24,387 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Notifying no-one, there are no waiting threads
+2014-09-15 16:29:24,423 [DEBUG] org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager  - Get connection: {}->http://localhost:18155, timeout = 120000
+2014-09-15 16:29:24,423 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - [{}->http://localhost:18155] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-09-15 16:29:24,423 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - No free connections [{}->http://localhost:18155][null]
+2014-09-15 16:29:24,423 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Available capacity: 2000 out of 2000 [{}->http://localhost:18155][null]
+2014-09-15 16:29:24,423 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Creating new connection [{}->http://localhost:18155]
+2014-09-15 16:29:24,423 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to localhost:18155
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: best-match
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /session/662a9e3a3c05b79722a60b8762963fe5/window/current/maximize HTTP/1.1
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.wire  -  >> "POST /session/662a9e3a3c05b79722a60b8762963fe5/window/current/maximize HTTP/1.1[\r][\n]"
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.wire  -  >> "Accept: application/json, image/png[\r][\n]"
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.wire  -  >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 26[\r][\n]"
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.wire  -  >> "Host: localhost:18155[\r][\n]"
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.headers  - >> POST /session/662a9e3a3c05b79722a60b8762963fe5/window/current/maximize HTTP/1.1
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.headers  - >> Accept: application/json, image/png
+2014-09-15 16:29:24,424 [DEBUG] org.apache.http.headers  - >> Content-Type: application/json; charset=utf-8
+2014-09-15 16:29:24,425 [DEBUG] org.apache.http.headers  - >> Content-Length: 26
+2014-09-15 16:29:24,425 [DEBUG] org.apache.http.headers  - >> Host: localhost:18155
+2014-09-15 16:29:24,425 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2014-09-15 16:29:24,425 [DEBUG] org.apache.http.wire  -  >> "{"windowHandle":"current"}"
+2014-09-15 16:29:25,661 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2014-09-15 16:29:25,661 [DEBUG] org.apache.http.wire  -  << "Content-Length:72[\r][\n]"
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.wire  -  << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.wire  -  << "Connection:close[\r][\n]"
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.headers  - << Content-Length:72
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.headers  - << Content-Type:application/json; charset=utf-8
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.headers  - << Connection:close
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.wire  -  << "{"sessionId":"662a9e3a3c05b79722a60b8762963fe5","status":0,"value":null}"
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:52652<->127.0.0.1:18155 shut down
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager  - Released connection is not reusable.
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Releasing connection [{}->http://localhost:18155][null]
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:52652<->127.0.0.1:18155 closed
+2014-09-15 16:29:25,662 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Notifying no-one, there are no waiting threads
+2014-09-15 16:29:25,663 [DEBUG] org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager  - Get connection: {}->http://localhost:18155, timeout = 120000
+2014-09-15 16:29:25,663 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - [{}->http://localhost:18155] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2014-09-15 16:29:25,663 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - No free connections [{}->http://localhost:18155][null]
+2014-09-15 16:29:25,663 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Available capacity: 2000 out of 2000 [{}->http://localhost:18155][null]
+2014-09-15 16:29:25,663 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Creating new connection [{}->http://localhost:18155]
+2014-09-15 16:29:25,663 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to localhost:18155
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: best-match
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /session/662a9e3a3c05b79722a60b8762963fe5/url HTTP/1.1
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "POST /session/662a9e3a3c05b79722a60b8762963fe5/url HTTP/1.1[\r][\n]"
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "Accept: application/json, image/png[\r][\n]"
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 53[\r][\n]"
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "Host: localhost:18155[\r][\n]"
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.headers  - >> POST /session/662a9e3a3c05b79722a60b8762963fe5/url HTTP/1.1
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.headers  - >> Accept: application/json, image/png
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.headers  - >> Content-Type: application/json; charset=utf-8
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.headers  - >> Content-Length: 53
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.headers  - >> Host: localhost:18155
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2014-09-15 16:29:25,664 [DEBUG] org.apache.http.wire  -  >> "{"url":"https://tbbqabeta.productpartners.com/en_CA"}"
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.wire  -  << "Content-Length:72[\r][\n]"
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.wire  -  << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.wire  -  << "Connection:close[\r][\n]"
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.headers  - << Content-Length:72
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.headers  - << Content-Type:application/json; charset=utf-8
+2014-09-15 16:29:42,220 [DEBUG] org.apache.http.headers  - << Connection:close
+2014-09-15 16:29:42,221 [DEBUG] org.apache.http.wire  -  << "{"sessionId":"662a9e3a3c05b79722a60b8762963fe5","status":0,"value":null}"
+2014-09-15 16:29:42,221 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:52654<->127.0.0.1:18155 shut down
+2014-09-15 16:29:42,221 [DEBUG] org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager  - Released connection is not reusable.
+2014-09-15 16:29:42,221 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Releasing connection [{}->http://localhost:18155][null]
+2014-09-15 16:29:42,221 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:52654<->127.0.0.1:18155 closed
+2014-09-15 16:29:42,221 [DEBUG] org.apache.http.impl.conn.tsccm.ConnPoolByRoute  - Notifying no-one, there are no waiting threads
+2014-09-15 16:29:42,221 [INFO ] com.generic.InitiateScript  - Open Browser with URL: - https://tbbqabeta.productpartners.com/en_CA
